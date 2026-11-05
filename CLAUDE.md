@@ -4,15 +4,25 @@ Claude reads this file at the start of every session. It's your project's standi
 
 ## ✏️ About this project
 
-- **What we're building:** (one or two sentences, e.g. "A one-page microsite for a fictional congress symposium" or "A simple tracker for my professional development goals")
-- **Who it's for:** (who will use it, and on what device)
-- **What "done" looks like today:** (the smallest version you'd be happy to show the group at 12:30)
+- **What we're building:** "Off the Map London", a one-page guide to good, non-touristy restaurants in London.
+- **Who it's for:** Londoners looking for their next new local spot to try. They'll mostly check it on their phones, so design for mobile first.
+- **What "done" looks like today:**
+  - About 10 real restaurants, each with its name, area, type of food and a one-line description.
+  - Filter buttons for area (e.g. "East London") and type of food (e.g. "Thai").
+  - A "Tried it" tick on each restaurant, saved in the browser's localStorage. This only saves on that phone and in that browser.
+
+### About the restaurant data
+- The restaurants are **real**. This is an agreed exception to the "made-up data only" rule below. It covers public restaurant facts only and nothing else.
+- Research the list from the web. Choose well-regarded places that aren't touristy, spread across different areas and cuisines.
+- Write each one-line description in our own neutral words. Never copy reviews, quotes or star ratings from Google or anywhere else.
+- Give each restaurant a "See reviews on Google Maps" link so people can read the live reviews there.
+- Details can go out of date, so show a "Last checked: [month year]" note and ask me to check the list before sharing it.
 
 ## ✏️ Look and feel
 
-- **Brand:** (e.g. Wizzard: Inter for body text, Montserrat for headings; or a fictional client's colours)
-- **Tone:** (e.g. clear, warm, scientific but not stuffy)
-- **Reference:** (a site you like, or "clean and simple")
+- **Brand:** Off the Map London. Warm and cosy, like a bistro menu: a cream background with earthy colours such as terracotta and olive. Use Google Fonts, with a characterful serif for headings and a clean, readable font for body text.
+- **Tone:** Warm, friendly and local, like a tip from a friend who lives here. Not salesy and not like a tourist guide.
+- **Reference:** Cosy, independent restaurant menus and chalkboards.
 
 ## About me
 
