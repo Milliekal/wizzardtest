@@ -3,21 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My first site</title>
+  <title>Off the Map London</title>
+  <meta name="description" content="A short, local guide to good, non-touristy restaurants across London.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="hero">
+    <svg class="hero-pin" viewBox="0 0 64 80" aria-hidden="true" focusable="false">
+      <path d="M32 2C16 2 4 14 4 30c0 20 28 46 28 46s28-26 28-46C60 14 48 2 32 2z" fill="currentColor"/>
+      <circle cx="32" cy="29" r="11" fill="var(--paper)"/>
+      <path d="M27 24v10M32 24v10M37 24v10M27 29h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+    </svg>
+    <p class="eyebrow">A local's little list</p>
+    <h1>Off the Map London</h1>
+    <p class="intro">Ten neighbourhood spots worth the bus ride. No queues of tourists, just good food from people who love their corner of the city.</p>
+  </header>
+
   <main>
-    <p class="eyebrow">It's alive</p>
-    <h1>Hello, world.</h1>
-    <p>If you can read this on a real web address, your site is deployed. Now open Claude Code and ask it to turn this page into something of your own.</p>
+    <section class="filters" aria-labelledby="filters-heading">
+      <h2 id="filters-heading" class="visually-hidden">Filter restaurants</h2>
+
+      <fieldset>
+        <legend>Area</legend>
+        <div class="chips" id="area-filters"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Type of food</legend>
+        <div class="chips" id="food-filters"></div>
+      </fieldset>
+    </section>
+
+    <div class="status">
+      <p id="result-count" aria-live="polite"></p>
+      <p id="tried-count"></p>
+    </div>
+
+    <ul class="cards" id="restaurant-list"></ul>
+
+    <p class="checked">Last checked: November 2026. Restaurants change, so check opening times before you go.</p>
   </main>
 
   <footer>
-    Training exercise. Not a real product, and all data is made up.
+    Training exercise. Not a real product. The restaurants are real, but details may be out of date. "Tried it" ticks are saved only on this device and in this browser.
   </footer>
 
   <script src="script.js"></script>
