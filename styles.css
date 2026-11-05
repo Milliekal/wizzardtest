@@ -157,6 +157,22 @@ input:focus-visible {
   border-color: var(--olive);
 }
 
+.art {
+  display: grid;
+  place-items: center;
+  height: 8rem;
+  margin: -0.35rem -0.35rem 0.9rem;
+  border-radius: 0.5rem;
+  background:
+    repeating-linear-gradient(45deg, transparent 0 10px, rgba(85, 92, 44, 0.06) 10px 20px),
+    #efe3cf;
+}
+
+.art svg {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
 .card h3 {
   margin: 0 0 0.25rem;
   font-size: 1.35rem;
