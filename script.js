@@ -128,10 +128,10 @@ function render() {
     const li = document.createElement("li");
     li.className = "card" + (tried.has(r.id) ? " is-tried" : "");
     li.innerHTML = `
-      <div class="art" aria-hidden="true">
-        <svg viewBox="0 0 64 64" focusable="false">${illustrations[r.food] || ""}</svg>
+      <div class="card-title">
+        <span class="art" aria-hidden="true"><svg viewBox="0 0 64 64" focusable="false">${illustrations[r.food] || ""}</svg></span>
+        <h3>${r.name}</h3>
       </div>
-      <h3>${r.name}</h3>
       <p class="meta">${r.neighbourhood} · ${r.area} London &nbsp;<span class="tag">${r.food}</span></p>
       <p class="desc">${r.desc}</p>
       <div class="card-actions">

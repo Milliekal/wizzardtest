@@ -157,24 +157,30 @@ input:focus-visible {
   border-color: var(--olive);
 }
 
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
 .art {
+  flex: none;
   display: grid;
   place-items: center;
-  height: 8rem;
-  margin: -0.35rem -0.35rem 0.9rem;
-  border-radius: 0.5rem;
-  background:
-    repeating-linear-gradient(45deg, transparent 0 10px, rgba(85, 92, 44, 0.06) 10px 20px),
-    #efe3cf;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: #efe3cf;
 }
 
 .art svg {
-  width: 6.25rem;
-  height: 6.25rem;
+  width: 1.9rem;
+  height: 1.9rem;
 }
 
 .card h3 {
-  margin: 0 0 0.25rem;
+  margin: 0;
   font-size: 1.35rem;
 }
 
