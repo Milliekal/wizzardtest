@@ -20,9 +20,9 @@ Claude reads this file at the start of every session. It's your project's standi
 
 ## ✏️ Look and feel
 
-- **Brand:** Off the Map London. Warm and cosy, like a bistro menu: a cream background with earthy colours such as terracotta and olive. Use Google Fonts, with a characterful serif for headings and a clean, readable font for body text.
+- **Brand:** Off the Map London. Bold and modern: an off-white background, near-black text and thick black outlines, a bright orange accent (always with black text) and a touch of electric blue. Cards have a hard "pop-out" shadow. Fonts are Space Grotesk (bold) for headings and Inter for body text.
 - **Tone:** Warm, friendly and local, like a tip from a friend who lives here. Not salesy and not like a tourist guide.
-- **Reference:** Cosy, independent restaurant menus and chalkboards.
+- **Reference:** Modern, confident city guides and posters, with big type, strong contrast and no soft edges.
 
 ## About me
 

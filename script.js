@@ -24,8 +24,8 @@ const restaurants = [
 ];
 
 // Hand-drawn illustrations, one per type of food. Colours come from styles.css.
-// T = terracotta, O = olive, C = cream fill.
-const T = 'var(--terracotta)', O = 'var(--olive)', C = 'var(--card)';
+// T = orange accent, O = black, C = white fill.
+const T = 'var(--accent)', O = 'var(--ink)', C = 'var(--card)';
 const steam = `<path d="M26 10c-3 4 3 6 0 10M32 8c-3 4 3 6 0 10M38 10c-3 4 3 6 0 10" fill="none" stroke="${O}" stroke-width="2" stroke-linecap="round"/>`;
 const illustrations = {
   French: `<path d="M8 40c4-14 14-22 24-22s20 8 24 22c-6-3-10-2-12 2-4-6-8-8-12-8s-8 2-12 8c-2-4-6-5-12-2z" fill="${T}"/>
